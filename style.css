@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Indie+Flower&family=Silkscreen&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+body {
+  background: linear-gradient(45deg, #066169, #12d1c4);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+p {
+  margin: 32px 0px 48px 0px;
+  padding: 0px;
+}
+
+h1, h2 {
+  font-family: 'Akaya Telivigala', cursive;
+  color: rgb(1, 114, 170);
+  font-size: 48px;
+  line-height: 48px;
+  margin: 16px;
+}
+
+#font-robot {
+  font-family: 'Silkscreen', cursive;
+  font-size: 24px;
+}
+
+a {
+  font-family: Tahoma;
+  color: rgb(1, 114, 170);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #098383;
+}
+
+.container {
+  width: 680px;
+  margin: 50px auto;
+}
+
+.card {
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+  box-shadow: 15px 15px 16px rgb(0 0 0 / 30%);
+  padding: 64px 57px;
+  margin: 32px 56px 32px 56px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 64px;
+}
+
+.btn-blue {
+  background-color: rgb(1, 114, 170);
+  color: white;
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 16px 16px 16px;
+}
+
+.btn-blue:hover {
+  background-color: #098383;
+  color: white;
+}
+
+#baby-small {
+  width: 50px;
+  vertical-align: bottom;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}

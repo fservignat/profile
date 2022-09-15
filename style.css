@@ -63,7 +63,7 @@ a:hover {
 .shadowed {
   box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
 }
-
+/*
 .list-inline {
   list-style: none;
   padding-left: 0px;
@@ -74,7 +74,7 @@ a:hover {
   padding: 0px 20px;
   font-size: 64px;
 }
-
+*/
 .btn-blue {
   background-color: rgb(1, 114, 170);
   color: white;
@@ -98,26 +98,4 @@ a:hover {
   .container {
     width: 500px;
   }
-}
-
-.fa-github:hover {
-  display: none;
-}
-
-.fa-linkedin:hover {
-  display: none;
-}
-
-.fa-twitter:hover {
-  display: none;
-}
-
-#github {
-  background: url(images/github1.png);
-}
-#linkedin {
-  background: url(images/github2.png);
-}
-#twitter {
-  background: url(images/github3.png);
 }

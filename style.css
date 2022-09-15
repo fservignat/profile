@@ -112,12 +112,12 @@ a:hover {
   display: none;
 }
 
-#github:hover {
+#github {
   background: url(images/github1.png);
 }
-#linkedin:hover {
+#linkedin {
   background: url(images/github2.png);
 }
-#twitter:hover {
+#twitter {
   background: url(images/github3.png);
 }

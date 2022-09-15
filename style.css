@@ -100,14 +100,14 @@ a:hover {
   }
 }
 
-.fa-brands1:hover {
+.fa-github:hover {
   background: url("images/github1.png") no-repeat;
 }
 
-.fa-brands2:hover {
+.fa-linkedin:hover {
   background: url("images/github2.png") no-repeat;
 }
 
-.fa-brands3:hover {
+.fa-twitter:hover {
   background: url("images/github3.png") no-repeat;
 }
